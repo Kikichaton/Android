@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
 public void oui(View View){
     Intent ouiIntent=new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.fr"));
     startActivity(ouiIntent);
-}  
+}
 
 
 }
